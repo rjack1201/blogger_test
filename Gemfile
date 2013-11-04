@@ -32,7 +32,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem "paperclip"
+gem 'paperclip'
+gem 'bcrypt-ruby', '~> 3.0.0', platforms: :ruby
+gem 'sorcery'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
